@@ -1,0 +1,66 @@
+canonical_identifier: bkk:krp/KR3em040/v1
+canonical_location: https://kanripo.org/bkk/KR3em040/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 走馬急疳真方
+  identifiers:
+    krp: KR3em040
+  tags:
+    kr-categories: KR3em
+  source:
+    repository: tls-texts
+    path: data/tls/KR3em040.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3em040_000.yaml, hash: 'sha256:14ef73a34e2dbd846d2cb0b134a4a47eddd97365051b638628de66451084423a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3em040_000.markers.yaml, hash: 'sha256:fb03098fa92aa117be0b701dd45b646556517c3815f0c3dfce11e1a9e3ee619f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3em040_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 402
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3em040_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 869
+  label: 治法
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3em040_jc_000-d4.h1s1
+    span:
+    - body
+    - 869
+    - 2541
+  label: 藥方
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3em040_jc_000-d5.h1s1
+    span:
+    - body
+    - 2541
+    - 2827
+  label: 藥品異名括
+  type: section
+  level: 1
+hash: sha256:478a6a883c8c4f69ebf82137a428d499482beb55bc9f0f62f137f1601e584eb4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
