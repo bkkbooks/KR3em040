@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3em040/v1
 canonical_location: https://kanripo.org/bkk/KR3em040/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 走馬急疳真方
   identifiers:
@@ -16,9 +16,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 0, filename: KR3em040_000.yaml, hash: 'sha256:1f638af0d8cb2ef6b8a373c72e5911e803bf545159e834ed661505b708a05baa'}
+  - {seq: 0, filename: KR3em040_000.yaml, hash: 'sha256:14ef73a34e2dbd846d2cb0b134a4a47eddd97365051b638628de66451084423a'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR3em040_000.markers.yaml, hash: 'sha256:4fd1c55971bca7c60d1cea6acbce3d3dd134d8524b24d3d3e301e751eab3195f'}
+  - {seq: 0, role: markers, filename: assets/KR3em040_000.markers.yaml, hash: 'sha256:f9ad381ccbb17c96281bdb83de9f3308ecefdb1dbbc2ed90a576e20a0185112b'}
 table_of_contents:
 - ref:
     seq: 0
@@ -60,4 +60,7 @@ table_of_contents:
   label: 藥品異名括
   type: section
   level: 1
-hash: sha256:2a1889a35743074c826d7c838222cea99d254c1ab80f6bb127fa848a737c8793
+hash: sha256:5eea746a5214dfd3a1e80c2acc23f90bfcc0e932d124dcf8bad3818753704eea
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
